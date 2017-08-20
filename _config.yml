@@ -14,22 +14,21 @@ author: Fábio Madeira
 # biomadeira.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
 baseurl: /vitae/
-title: Chris Turner's Resume
-name: Chris Turner
-email: christurner@me.com
-email_full: mailto:youremail@me.com
-website: github.io/sustain
-website_full: https://biomadeira.github.io/sustain
-github: trending
-twitter: twitter
-tel: +44 0000 000000
-tel_full: tel:+440000000000
-google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
-address: 44 Perth Street
-postcode: EH3 5BL
-city: Edinburgh
-country: United Kingdom
-google_analytics: UA-69300817-1
+title: Prawal Gangwar's Resume
+name: Prawal Gangwar
+email: prawal.gangwar@gmail.com 
+email_full: mailto:prawal.gangwar@gmail.com
+website: github.io/prawalgangwar
+website_full: https://prawalgangwar.github.io
+github: prawalgangwar
+twitter: prawalgangwar
+tel: +91 9044340199
+# google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+address: Texas Instruments
+# postcode: 560093
+city: Bengaluru
+country: India
+google_analytics: UA-101400553-1
 
 # needed for travis-ci build
 exclude: [vendor]
