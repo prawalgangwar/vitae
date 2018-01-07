@@ -1,29 +1,15 @@
 <section class="thirteen columns">
     <h1>Employment</h1>
-    <article>
-        <header>
-            <h1>Software Engineer</h1>
-            <span><address>Texas Instruments, Bangalore, India</address><time>July 2017 - Present</time></span>
-        </header>
-        <p>Qui bonorum menandri intellegebat ex, mel quando oblique an. Et eam virtute debitis philosophia,
-            unum ancillae disputationi vim in. Ipsum vidisse meliore ex eum,
-            delectus tacimates conclusionemque has ei. Eam ubique cetero scribentur ne.</p>
-    </article>
-    <article>
-        <header>
-            <h1>Research Intern</h1>
-            <span><address>Indiana University, Bloomington, USA</address><time>May 2017 to June 2017</time></span>
-        </header>
-        <p>Lorem ipsum dolor sit amet, his et viris petentium philosophia,
-            at vix debitis deleniti. At vis velit volumus alienum, agam vocent assueverit usu ex. </p>
-    </article>
-    <article>
-        <header>
-            <h1>Project Trainee</h1>
-            <span><address>Texas Instruments, Bangalore, India</address><time>May 2016 to July 2016</time></span>
-        </header>
-        <p>Qui bonorum menandri intellegebat ex, mel quando oblique an. Et eam virtute debitis philosophia,
-            unum ancillae disputationi vim in. Ipsum vidisse meliore ex eum,
-            delectus tacimates conclusionemque has ei. Eam ubique cetero scribentur ne.</p>
-    </article>
+        {% assign hasSimilar = '' %}
+        {% for employement in site.employement reversed %}
+            <article>
+                <header>
+                    <h1>{{ employement.designation }}</h1>
+                    <span><address>{{ employement.title }}</address><time>{{ employement.duration }}</time></span>
+                </header>
+                <p>
+                    {{ employement.content }}
+                </p>
+            </article>
+        {% endfor %}
 </section>
