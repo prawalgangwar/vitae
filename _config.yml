@@ -16,14 +16,13 @@ author: Fábio Madeira
 baseurl: /vitae/
 title: Prawal Gangwar's Resume
 name: Prawal Gangwar
-email: prawal.gangwar@gmail.com 
-email_full: mailto:prawal.gangwar@gmail.com
+email: cv@prawalgangwar.in 
+email_full: mailto:cv@prawalgangwar.in
 website: prawalgangwar.github.io
 website_full: https://prawalgangwar.github.io
 github: prawalgangwar
 twitter: prawalgangwar
 linkedin: prawalgangwar
-tel: +91 9044340199
 
 collections:
 - employement
